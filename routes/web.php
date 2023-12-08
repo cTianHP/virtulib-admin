@@ -16,7 +16,7 @@ use App\Models\CustomerMongoDB;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('/info', function () {
     phpinfo();
